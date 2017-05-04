@@ -2,13 +2,15 @@ package com.data.tencent;
 
 import org.junit.Test; 
 import org.junit.Before; 
-import org.junit.After; 
+import org.junit.After;
+
+import java.io.File;
 
 /** 
 * App Tester. 
 * 
 * @author <Authors name> 
-* @since <pre>ÎåÔÂ 4, 2017</pre> 
+* @since <pre>ï¿½ï¿½ï¿½ï¿½ 4, 2017</pre> 
 * @version 1.0 
 */ 
 public class AppTest { 
@@ -37,7 +39,9 @@ public void testMain() throws Exception {
 * 
 */ 
 @Test
-public void testTest() throws Exception { 
+public void testTest() throws Exception {
+    File file = new File("/spring-config.xml");
+    System.out.println(file.getName());
 //TODO: Test goes here... 
 } 
 
